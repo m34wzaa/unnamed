@@ -1,0 +1,73 @@
+{
+    "asset": {
+        "generator": "GitHub Copilot",
+        "version": "2.0"
+    },
+    "scene": 0,
+    "scenes": [
+        {
+            "nodes": [0]
+        }
+    ],
+    "nodes": [
+        {
+            "mesh": 0
+        }
+    ],
+    "meshes": [
+        {
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 0
+                    },
+                    "indices": 1,
+                    "material": 0
+                }
+            ]
+        }
+    ],
+    "materials": [
+        {
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [0.8, 0.8, 0.8, 1.0],
+                "metallicFactor": 0.0,
+                "roughnessFactor": 0.4
+            }
+        }
+    ],
+    "accessors": [
+        {
+            "bufferView": 0,
+            "componentType": 5126,
+            "count": 24,
+            "type": "VEC3",
+            "min": [-7.5, 0, -7.5],
+            "max": [7.5, 10, 7.5]
+        },
+        {
+            "bufferView": 1,
+            "componentType": 5125,
+            "count": 36,
+            "type": "SCALAR"
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 288
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 432,
+            "uri": "data:application/octet-stream;base64,AAAA+H4AP4AAAAAAAAA4fgA/gAAAAABIMX8AP4AAAAAASDl/AD+AAAAARDl/AD+AAAAARDl/AD+AAAA4fgA/gAAAAAA4fgA/gAAAAAAAAA4fgA/gAAAABIMX8AP4AAAAAASDl/AD+AAAAARDl/AD+AAAAARDl/AD+AAAAARDl/AD+AAAA4fgA/gAAAAAA4fgA/gAAAABIMX8AP4AAAA==",
+            "byteLength": 288
+        }
+    ]
+}
