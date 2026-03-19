@@ -1,0 +1,69 @@
+{
+    "asset": {
+        "version": "2.0"
+    },
+    "scene": 0,
+    "scenes": [
+        {
+            "nodes": [0]
+        }
+    ],
+    "nodes": [
+        {
+            "mesh": 0
+        }
+    ],
+    "meshes": [
+        {
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 0
+                    },
+                    "indices": 1,
+                    "material": 0
+                }
+            ]
+        }
+    ],
+    "materials": [
+        {
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [0.8, 0.3, 0.1, 1.0]
+            }
+        }
+    ],
+    "accessors": [
+        {
+            "bufferView": 0,
+            "componentType": 5126,
+            "count": 24,
+            "type": "VEC3",
+            "min": [-0.6, -0.5, -1.0],
+            "max": [0.6, 0.8, 1.0]
+        },
+        {
+            "bufferView": 1,
+            "componentType": 5125,
+            "count": 36,
+            "type": "SCALAR"
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 288
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 432,
+            "uri": "data:application/octet-stream;base64,AAAAPQAAAD0AAAA9AAAAPQAAADwAAABAPQAAAEAAAAA9AAAAPwAAAD0AAAA/AAAAPQAAAEAAAAAAPQAAAEAAAAA9AAAAPwAAAEAAAAAAPQAAAD8AAAA9AAAAPwAAAEAAAAAAPQAAAEAAAAA8AAAAPgAAAEAAAAAAPgAAAEAAAAA8AAAAPgAAAEAAAAAAPgAAAEAAAAA8AAAAPgAAAEAAAAAAPgAAAEAAAAA8AAAAPgAAAEAAAAAAPgAAAEAAAAAAAAAAAAAAAQAAAAIAAAADAAAAEAAAABEAAAASAAAAEwAAABQAAAAVAAAAFgAAABcAAAAYAAAAGQAAABoAAAAbAAAAHAAAAB0AAAAeAAAAHwAAACAAAAAhAAAAIgAAACMAAAAkAAAAJQA="
+        }
+    ]
+}
