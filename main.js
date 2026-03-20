@@ -49,25 +49,24 @@ const geos = []
 // loadModel('objects/scene.gltf'); // Commented out due to invalid GLTF file
 
 // Load each GLTF file in the player folder in specific order
-geos.push(loadModel('objects/player/earl.gltf'));
-geos.push(loadModel('objects/player/earr.gltf'));
-geos.push(loadModel('objects/player/flapl1.gltf'));
-geos.push(loadModel('objects/player/flapl2.gltf'));
-geos.push(loadModel('objects/player/flapr1.gltf'));
-geos.push(loadModel('objects/player/flapr2.gltf'));
-geos.push(loadModel('objects/player/head.gltf'));
-geos.push(loadModel('objects/player/tail1.gltf'));
-geos.push(loadModel('objects/player/tail2.gltf'));
-geos.push(loadModel('objects/player/tail3.gltf'));
-geos.push(loadModel('objects/player/tailflapl.gltf'));
-geos.push(loadModel('objects/player/tailflapr.gltf'));
-geos.push(loadModel('objects/player/torso.gltf'));
-geos.push(loadModel('objects/player/wingl1.gltf'));
-geos.push(loadModel('objects/player/wingl2.gltf'));
-geos.push(loadModel('objects/player/wingl3.gltf'));
-geos.push(loadModel('objects/player/wingr1.gltf'));
-geos.push(loadModel('objects/player/wingr2.gltf'));
-geos.push(loadModel('objects/player/wingr3.gltf'));
+// geos.push({ id: 'ear',       gltf: loadModel('objects/player/ear.gltf') });       // File not found
+// geos.push({ id: 'flapl1',    gltf: loadModel('objects/player/flapl1.gltf') });    // File not found
+// geos.push({ id: 'flapl2',    gltf: loadModel('objects/player/flapl2.gltf') });    // File not found
+// geos.push({ id: 'flapr1',    gltf: loadModel('objects/player/flapr1.gltf') });    // File not found
+// geos.push({ id: 'flapr2',    gltf: loadModel('objects/player/flapr2.gltf') });    // File not found
+   geos.push({ id: 'head',      gltf: loadModel('objects/player/head.gltf') });
+// geos.push({ id: 'tail1',     gltf: loadModel('objects/player/tail1.gltf') });     // File not found
+// geos.push({ id: 'tail2',     gltf: loadModel('objects/player/tail2.gltf') });     // File not found
+// geos.push({ id: 'tail3',     gltf: loadModel('objects/player/tail3.gltf') });     // File not found
+// geos.push({ id: 'tailflapl', gltf: loadModel('objects/player/tailflapl.gltf') }); // File not found
+// geos.push({ id: 'tailflapr', gltf: loadModel('objects/player/tailflapr.gltf') }); // File not found
+   geos.push({ id: 'torso',     gltf: loadModel('objects/player/torso.gltf') });
+// geos.push({ id: 'wingl1',    gltf: loadModel('objects/player/wingl1.gltf') });    // File not found
+// geos.push({ id: 'wingl2',    gltf: loadModel('objects/player/wingl2.gltf') });    // File not found
+// geos.push({ id: 'wingl3',    gltf: loadModel('objects/player/wingl3.gltf') });    // File not found
+// geos.push({ id: 'wingr1',    gltf: loadModel('objects/player/wingr1.gltf') });    // File not found
+// geos.push({ id: 'wingr2',    gltf: loadModel('objects/player/wingr2.gltf') });    // File not found
+// geos.push({ id: 'wingr3',    gltf: loadModel('objects/player/wingr3.gltf') });    // File not found
 const mat = new THREE.MeshStandardMaterial({ color: 0x00ff00, roughness: 0.5, metalness: 0.5 });
 const players = [];
 for (let i = 0; i < 10; i++) {
